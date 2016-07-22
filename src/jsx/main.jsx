@@ -11,13 +11,13 @@ import suffixList from 'SuffixList';
 
 import "../html/index.html";
 import "../sass/main.sass";
-import placenamesPath from "file!../data/placenames_de.tsv"
+import placenamesPath from "file!../data/placenames_ir.tsv"
 
 const projection = d3_geo.geo
-	.mercator()
-	.center([13.4, 52.5])
-	.translate([160, 120])
-	.scale(1200)
+	.mercator()	
+	.center([32.4279,53.6880])
+	.translate([-150, -350])
+	.scale(1020)
 ;
 
 const hexbin = d3_hexbin.hexbin()
@@ -28,7 +28,7 @@ const hexbin = d3_hexbin.hexbin()
 ;
 
 d3_request.csv(placenamesPath, (d)=> {
-	d.forEach((x)=>{
+	d.forEach((x)=>{		
 		x.label = x.name;
 		// project geo to screen coordinates
 		[x.x, x.y] = projection([+x.longitude, +x.latitude]);

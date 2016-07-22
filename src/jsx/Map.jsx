@@ -57,7 +57,7 @@ export default class Map extends React.Component {
         <h2>-{mainLabel}</h2>
         <h4>{variations}</h4>
         <h3>{totalCount} places</h3>
-        <svg width="200" height="300">
+        <svg width="400" height="400">
       		{dots}
       	</svg>
        </div>
