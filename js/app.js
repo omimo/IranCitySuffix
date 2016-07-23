@@ -84,7 +84,7 @@
 
 	__webpack_require__(179);
 
-	var _placenames_ir = __webpack_require__(184);
+	var _placenames_ir = __webpack_require__(183);
 
 	var _placenames_ir2 = _interopRequireDefault(_placenames_ir);
 
@@ -32158,7 +32158,7 @@
 	(function (global, factory) {
 	   true ? factory(exports) :
 	  typeof define === 'function' && define.amd ? define(['exports'], factory) :
-	  (factory((global.d3_collection = {})));
+	  (factory((global.d3_collection = global.d3_collection || {})));
 	}(this, function (exports) { 'use strict';
 
 	  var prefix = "$";
@@ -32166,6 +32166,7 @@
 	  function Map() {}
 
 	  Map.prototype = map.prototype = {
+	    constructor: Map,
 	    has: function(key) {
 	      return (prefix + key) in this;
 	    },
@@ -32318,6 +32319,7 @@
 	  var proto = map.prototype;
 
 	  Set.prototype = set.prototype = {
+	    constructor: Set,
 	    has: proto.has,
 	    add: function(value) {
 	      value += "";
@@ -32366,7 +32368,7 @@
 	    return entries;
 	  }
 
-	  var version = "0.1.1";
+	  var version = "0.1.2";
 
 	  exports.version = version;
 	  exports.nest = nest;
@@ -38627,7 +38629,7 @@
 	(function (global, factory) {
 	   true ? factory(exports) :
 	  typeof define === 'function' && define.amd ? define(['exports'], factory) :
-	  (factory((global.d3_collection = {})));
+	  (factory((global.d3_collection = global.d3_collection || {})));
 	}(this, function (exports) { 'use strict';
 
 	  var prefix = "$";
@@ -38635,6 +38637,7 @@
 	  function Map() {}
 
 	  Map.prototype = map.prototype = {
+	    constructor: Map,
 	    has: function(key) {
 	      return (prefix + key) in this;
 	    },
@@ -38787,6 +38790,7 @@
 	  var proto = map.prototype;
 
 	  Set.prototype = set.prototype = {
+	    constructor: Set,
 	    has: proto.has,
 	    add: function(value) {
 	      value += "";
@@ -38835,7 +38839,7 @@
 	    return entries;
 	  }
 
-	  var version = "0.1.1";
+	  var version = "0.1.2";
 
 	  exports.version = version;
 	  exports.nest = nest;
@@ -40399,8 +40403,7 @@
 
 
 /***/ },
-/* 183 */,
-/* 184 */
+/* 183 */
 /***/ function(module, exports, __webpack_require__) {
 
 	module.exports = __webpack_require__.p + "9757f2056c7810e336116d95052184a9.tsv";
