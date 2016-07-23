@@ -4,7 +4,7 @@ const suffixList = [
 		["Tappeh"],
 		["Abad","ābād"],
 		["Shahr"],
-		["Kala"],
+		["kola"],
 		["Sar"],
 		["An"],
 		["Deh"],
@@ -15,7 +15,10 @@ const suffixList = [
 		["cheh"],
 		["jan"],
 		["sefid"],
-		["siah"]
+		["siah"],
+		["Qal`eh"],
+		["Rud"],
+		["sara"]
 
 	];
 
