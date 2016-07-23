@@ -23,3 +23,6 @@ npm run deploy
 ```
 to build a deployment version into the build directory, which can be uploaded to a normal web server, no server side scripts or settings re required to run the application.
 
+# More Info
+
+For more information, look [here](http://omid.al/Shahr-vand.html)
