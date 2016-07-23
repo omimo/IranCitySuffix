@@ -9,7 +9,8 @@ const suffixList = [
 		["An"],
 		["Deh"],
 		["Sofla"],
-		["Gerd"],
+		["Olya","Oliya"],
+		["Gerd","Jerd"],
 		["Vand"],
 		["iyeh"],
 		["cheh"],
@@ -18,7 +19,18 @@ const suffixList = [
 		["siah"],
 		["Qal`eh"],
 		["Rud"],
-		["sara"]
+		["sara"],
+		["gah"],
+		["kand"],
+		["ghan"],
+		["reh"],
+		["khaneh"],
+		["ak"],
+		["zar"],
+		["lu"],
+		["Ab"],
+		["Kooh","Kuh"],
+		["Dasht"]
 
 	];
 
