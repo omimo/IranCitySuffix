@@ -25,4 +25,4 @@ to build a deployment version into the build directory, which can be uploaded to
 
 # More Info
 
-For more information, look [here](http://omid.al/projects/Shahr-vand.html)
+For more information, look [here](https://omid.al/projects/Shahr-vand.html)
